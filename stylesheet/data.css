@@ -1,0 +1,339 @@
+@import "../stylesheet/iconfont.css";
+
+@font-face {
+    font-family: siyuan;
+    src: url("../assets//SourceHanSansCN-Normal.ttf");
+}
+
+* {
+    font-family: siyuan;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .4s;
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(#d1d5fa, #5c6898);
+}
+
+.top_block {
+    background-color: white;
+    height: 90px;
+    display: flex;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+    padding: 0 100px;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 100px;
+}
+
+#back {
+    font-size: 20px;
+    align-self: center;
+}
+
+#back a,
+#return_top a {
+    text-decoration: none;
+    color: black;
+}
+
+#back a:visited,
+#return_top a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.main_block {
+    margin: 30px 300px 0 300px;
+}
+
+#main_title {
+    font-size: 40px;
+}
+
+.content_block {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: .75em;
+    min-height: 1000px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.18);
+    padding: 20px;
+}
+
+.content_tabBar {
+    width: 100%;
+    display: flex;
+}
+
+.content_tabBar a {
+    cursor: pointer;
+}
+
+.china_bar a {
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+}
+
+.abroad_bar a {
+    color: black;
+    text-decoration: none;
+}
+
+.content_tabBar div {
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    color: #5c6898;
+    font-weight: bold;
+}
+
+#return_top {
+    position: fixed;
+    right: 150px;
+    bottom: 200px;
+    background-color: #5c6898;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.icon-top {
+    font-size: 30px;
+    color: #D1D5FA;
+}
+
+#return_top:hover {
+    cursor: pointer;
+}
+
+#return_top:hover {
+    /* 鼠标悬停时浮起 */
+    box-shadow: 0 10px 13px 0 rgba(1, 1, 3, 0.15);
+    transform: translateY(-4px);
+}
+
+.time_block {
+    margin-top: 15px;
+    color: gray;
+    font-size: 15px;
+}
+
+.total_stat_block {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 220px;
+    align-content: space-between;
+    align-items: center;
+}
+
+#map_title {
+    margin-bottom: 10px;
+}
+
+.data_block {
+    text-align: center;
+    width: 33%;
+    height: 100px;
+}
+
+.data_stat {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.data_inc {
+    color: gray;
+    font-size: 14px;
+}
+
+#total_current_confirmed,
+#total_current_confirmed_inc,
+#abroad_total_current_confirmed,
+#abroad_total_current_confirmed_inc {
+    color: rgb(233, 2, 2);
+}
+
+#total_current_suspected,
+#total_current_suspected_inc {
+    color: rgb(245, 172, 14);
+}
+
+#total_current_serious,
+#total_current_serious_inc {
+    color: #5c6898;
+}
+
+#total_all_confirmed,
+#total_all_confirmed_inc,
+#abroad_total_all_confirmed,
+#abroad_total_all_confirmed_inc {
+    color: rgb(202, 0, 0);
+}
+
+#total_all_cured,
+#total_all_cured_inc,
+#abroad_total_all_cured,
+#abroad_total_all_cured_inc {
+    color: rgb(2, 143, 2);
+}
+
+#total_all_dead,
+#total_all_dead_inc,
+#abroad_total_all_dead,
+#abroad_total_all_dead_inc {
+    color: rgb(49, 49, 49);
+}
+
+.map_block,
+.figure_block,
+.abroad_map_block,
+.abroad_figure_block {
+    margin-top: 20px;
+}
+
+.map_tabBar,
+.abroad_map_tabBar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 10px 0;
+    height: 40px;
+}
+
+.map_tabBar div,
+.abroad_map_tabBar div {
+    width: 49.5%;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+.map,
+.abroad_map {
+    height: 500px;
+    padding: 0;
+    margin: 0;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+.selected_tabBar {
+    background-color: #5c6895;
+    color: white;
+}
+
+.not_selected_tabBar {
+    background-color: rgb(241, 241, 241);
+    color: black;
+}
+
+.figure_tabBar,
+.abroad_figure_tabBar {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.figure_tabBar div,
+.abroad_figure_tabBar div {
+    width: 24.5%;
+    padding: 5px 0;
+    border-radius: .5em;
+}
+
+.figure_tabBar div:hover,
+.abroad_figure_tabBar div:hover,
+.abroad_detail:hover {
+    cursor: pointer;
+}
+
+#detail_title,
+#abroad_detail_title {
+    margin: 20px 0;
+}
+
+#detail_table,
+#abroad_detail_table {
+    width: 100%;
+}
+
+.province_list,
+.zhou_list {
+    width: 30%;
+}
+
+#detail_table tbody td,
+#abroad_detail_table tbody td {
+    font-weight: lighter;
+}
+
+#detail_table tr,
+#abroad_detail_table tr {
+    line-height: 30px;
+}
+
+#detail_table .province_tr td:not(.province_name_td),
+#abroad_detail_table .province_tr td:not(.province_name_td) {
+    width: 18%;
+    background-color: rgb(236, 235, 235);
+    text-align: center;
+    border-radius: .25em;
+}
+
+.province_name_td {
+    background-color: #5c6898;
+    border-radius: .25em;
+    color: white;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.province_toDetail {
+    font-size: 14px;
+}
+
+.province_toDetail:hover,
+.province_name {
+    cursor: pointer;
+}
+
+.sub_tr {
+    line-height: 35px;
+    text-align: center;
+    border-style: solid;
+}
+
+.sub_tr td {
+    background-color: white;
+}
+
+.city_name_td {
+    text-align: left;
+    padding-left: 40px;
+}
+
+#abroad_jump {
+    margin: 20px 0;
+}
+
+.abroad_total_stat_block {
+    margin-top: 20px;
+    display: flex;
+}
+
+.bottom_block {
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+}

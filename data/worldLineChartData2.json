@@ -1,0 +1,707 @@
+{
+  "2020-04-22": {
+    "currentConfirmedCount": 1636600,
+    "confirmedCount": 2375712,
+    "suspectedCount": 4,
+    "curedCount": 570972,
+    "deadCount": 168140,
+    "date": "2020-04-22"
+  },
+  "2020-04-21": {
+    "currentConfirmedCount": 1589306,
+    "confirmedCount": 2300161,
+    "suspectedCount": 4,
+    "curedCount": 548586,
+    "deadCount": 162269,
+    "date": "2020-04-21"
+  },
+  "2020-04-20": {
+    "currentConfirmedCount": 1560729,
+    "confirmedCount": 2232433,
+    "suspectedCount": 4,
+    "curedCount": 513621,
+    "deadCount": 158083,
+    "date": "2020-04-20"
+  },
+  "2020-04-19": {
+    "currentConfirmedCount": 1507854,
+    "confirmedCount": 2146428,
+    "suspectedCount": 4,
+    "curedCount": 486953,
+    "deadCount": 151621,
+    "date": "2020-04-19"
+  },
+  "2020-04-18": {
+    "currentConfirmedCount": 1456062,
+    "confirmedCount": 2062936,
+    "suspectedCount": 4,
+    "curedCount": 463632,
+    "deadCount": 143242,
+    "date": "2020-04-18"
+  },
+  "2020-04-17": {
+    "currentConfirmedCount": 1401456,
+    "confirmedCount": 1965523,
+    "suspectedCount": 4,
+    "curedCount": 428404,
+    "deadCount": 135663,
+    "date": "2020-04-17"
+  },
+  "2020-04-16": {
+    "currentConfirmedCount": 1358006,
+    "confirmedCount": 1886673,
+    "suspectedCount": 4,
+    "curedCount": 403810,
+    "deadCount": 124857,
+    "date": "2020-04-16"
+  },
+  "2020-04-15": {
+    "currentConfirmedCount": 1330096,
+    "confirmedCount": 1815617,
+    "suspectedCount": 4,
+    "curedCount": 367226,
+    "deadCount": 118295,
+    "date": "2020-04-15"
+  },
+  "2020-04-14": {
+    "currentConfirmedCount": 1286515,
+    "confirmedCount": 1742822,
+    "suspectedCount": 4,
+    "curedCount": 344221,
+    "deadCount": 112086,
+    "date": "2020-04-14"
+  },
+  "2020-04-13": {
+    "currentConfirmedCount": 1250556,
+    "confirmedCount": 1679640,
+    "suspectedCount": 4,
+    "curedCount": 321600,
+    "deadCount": 107484,
+    "date": "2020-04-13"
+  },
+  "2020-04-12": {
+    "currentConfirmedCount": 1189835,
+    "confirmedCount": 1592956,
+    "suspectedCount": 4,
+    "curedCount": 302029,
+    "deadCount": 101092,
+    "date": "2020-04-12"
+  },
+  "2020-04-11": {
+    "currentConfirmedCount": 1127022,
+    "confirmedCount": 1495360,
+    "suspectedCount": 4,
+    "curedCount": 275041,
+    "deadCount": 93297,
+    "date": "2020-04-11"
+  },
+  "2020-04-10": {
+    "currentConfirmedCount": 1078602,
+    "confirmedCount": 1415272,
+    "suspectedCount": 4,
+    "curedCount": 251247,
+    "deadCount": 85423,
+    "date": "2020-04-10"
+  },
+  "2020-04-09": {
+    "currentConfirmedCount": 1019729,
+    "confirmedCount": 1335112,
+    "suspectedCount": 4,
+    "curedCount": 234792,
+    "deadCount": 80591,
+    "date": "2020-04-09"
+  },
+  "2020-04-08": {
+    "currentConfirmedCount": 1027844,
+    "confirmedCount": 1275975,
+    "suspectedCount": 4,
+    "curedCount": 174908,
+    "deadCount": 73223,
+    "date": "2020-04-08"
+  },
+  "2020-04-07": {
+    "currentConfirmedCount": 942841,
+    "confirmedCount": 1176401,
+    "suspectedCount": 4,
+    "curedCount": 165792,
+    "deadCount": 67768,
+    "date": "2020-04-07"
+  },
+  "2020-04-06": {
+    "currentConfirmedCount": 895685,
+    "confirmedCount": 1115174,
+    "suspectedCount": 4,
+    "curedCount": 156662,
+    "deadCount": 62827,
+    "date": "2020-04-06"
+  },
+  "2020-04-05": {
+    "currentConfirmedCount": 834201,
+    "confirmedCount": 1028605,
+    "suspectedCount": 4,
+    "curedCount": 137237,
+    "deadCount": 57167,
+    "date": "2020-04-05"
+  },
+  "2020-04-04": {
+    "currentConfirmedCount": 771690,
+    "confirmedCount": 945742,
+    "suspectedCount": 4,
+    "curedCount": 123649,
+    "deadCount": 50403,
+    "date": "2020-04-04"
+  },
+  "2020-04-03": {
+    "currentConfirmedCount": 715313,
+    "confirmedCount": 869301,
+    "suspectedCount": 4,
+    "curedCount": 108474,
+    "deadCount": 45514,
+    "date": "2020-04-03"
+  },
+  "2020-04-02": {
+    "currentConfirmedCount": 658962,
+    "confirmedCount": 792191,
+    "suspectedCount": 4,
+    "curedCount": 92719,
+    "deadCount": 40510,
+    "date": "2020-04-02"
+  },
+  "2020-04-01": {
+    "currentConfirmedCount": 596090,
+    "confirmedCount": 716195,
+    "suspectedCount": 4,
+    "curedCount": 84274,
+    "deadCount": 35831,
+    "date": "2020-04-01"
+  },
+  "2020-03-31": {
+    "currentConfirmedCount": 544535,
+    "confirmedCount": 655845,
+    "suspectedCount": 4,
+    "curedCount": 78842,
+    "deadCount": 32468,
+    "date": "2020-03-31"
+  },
+  "2020-03-30": {
+    "currentConfirmedCount": 507370,
+    "confirmedCount": 605851,
+    "suspectedCount": 4,
+    "curedCount": 69028,
+    "deadCount": 29453,
+    "date": "2020-03-30"
+  },
+  "2020-03-29": {
+    "currentConfirmedCount": 449133,
+    "confirmedCount": 536954,
+    "suspectedCount": 4,
+    "curedCount": 62461,
+    "deadCount": 25360,
+    "date": "2020-03-29"
+  },
+  "2020-03-28": {
+    "currentConfirmedCount": 395677,
+    "confirmedCount": 465670,
+    "suspectedCount": 4,
+    "curedCount": 48229,
+    "deadCount": 21764,
+    "date": "2020-03-28"
+  },
+  "2020-03-27": {
+    "currentConfirmedCount": 342754,
+    "confirmedCount": 402115,
+    "suspectedCount": 4,
+    "curedCount": 40672,
+    "deadCount": 18689,
+    "date": "2020-03-27"
+  },
+  "2020-03-26": {
+    "currentConfirmedCount": 300960,
+    "confirmedCount": 354163,
+    "suspectedCount": 4,
+    "curedCount": 36869,
+    "deadCount": 16334,
+    "date": "2020-03-26"
+  },
+  "2020-03-25": {
+    "currentConfirmedCount": 266644,
+    "confirmedCount": 309240,
+    "suspectedCount": 4,
+    "curedCount": 28747,
+    "deadCount": 13849,
+    "date": "2020-03-25"
+  },
+  "2020-03-24": {
+    "currentConfirmedCount": 230987,
+    "confirmedCount": 269789,
+    "suspectedCount": 4,
+    "curedCount": 26778,
+    "deadCount": 12024,
+    "date": "2020-03-24"
+  },
+  "2020-03-23": {
+    "currentConfirmedCount": 203641,
+    "confirmedCount": 237111,
+    "suspectedCount": 4,
+    "curedCount": 23159,
+    "deadCount": 10311,
+    "date": "2020-03-23"
+  },
+  "2020-03-22": {
+    "currentConfirmedCount": 172481,
+    "confirmedCount": 202435,
+    "suspectedCount": 4,
+    "curedCount": 21382,
+    "deadCount": 8572,
+    "date": "2020-03-22"
+  },
+  "2020-03-21": {
+    "currentConfirmedCount": 143623,
+    "confirmedCount": 168773,
+    "suspectedCount": 0,
+    "curedCount": 18001,
+    "deadCount": 7149,
+    "date": "2020-03-21"
+  },
+  "2020-03-20": {
+    "currentConfirmedCount": 138141,
+    "confirmedCount": 161490,
+    "suspectedCount": 0,
+    "curedCount": 16685,
+    "deadCount": 6664,
+    "date": "2020-03-20"
+  },
+  "2020-03-19": {
+    "currentConfirmedCount": 105639,
+    "confirmedCount": 123916,
+    "suspectedCount": 0,
+    "curedCount": 13324,
+    "deadCount": 4953,
+    "date": "2020-03-19"
+  },
+  "2020-03-18": {
+    "currentConfirmedCount": 90642,
+    "confirmedCount": 106809,
+    "suspectedCount": 0,
+    "curedCount": 11945,
+    "deadCount": 4222,
+    "date": "2020-03-18"
+  },
+  "2020-03-17": {
+    "currentConfirmedCount": 77397,
+    "confirmedCount": 91013,
+    "suspectedCount": 0,
+    "curedCount": 10181,
+    "deadCount": 3435,
+    "date": "2020-03-17"
+  },
+  "2020-03-16": {
+    "currentConfirmedCount": 66842,
+    "confirmedCount": 78702,
+    "suspectedCount": 0,
+    "curedCount": 9019,
+    "deadCount": 2841,
+    "date": "2020-03-16"
+  },
+  "2020-03-15": {
+    "currentConfirmedCount": 56324,
+    "confirmedCount": 65152,
+    "suspectedCount": 0,
+    "curedCount": 6630,
+    "deadCount": 2198,
+    "date": "2020-03-15"
+  },
+  "2020-03-14": {
+    "currentConfirmedCount": 48668,
+    "confirmedCount": 57006,
+    "suspectedCount": 0,
+    "curedCount": 6422,
+    "deadCount": 1916,
+    "date": "2020-03-14"
+  },
+  "2020-03-13": {
+    "currentConfirmedCount": 39493,
+    "confirmedCount": 46725,
+    "suspectedCount": 0,
+    "curedCount": 5671,
+    "deadCount": 1561,
+    "date": "2020-03-13"
+  },
+  "2020-03-12": {
+    "currentConfirmedCount": 33076,
+    "confirmedCount": 39554,
+    "suspectedCount": 0,
+    "curedCount": 5265,
+    "deadCount": 1213,
+    "date": "2020-03-12"
+  },
+  "2020-03-11": {
+    "currentConfirmedCount": 29828,
+    "confirmedCount": 35301,
+    "suspectedCount": 0,
+    "curedCount": 4529,
+    "deadCount": 944,
+    "date": "2020-03-11"
+  },
+  "2020-03-10": {
+    "currentConfirmedCount": 25984,
+    "confirmedCount": 30048,
+    "suspectedCount": 0,
+    "curedCount": 3311,
+    "deadCount": 753,
+    "date": "2020-03-10"
+  },
+  "2020-03-09": {
+    "currentConfirmedCount": 22522,
+    "confirmedCount": 26210,
+    "suspectedCount": 0,
+    "curedCount": 3139,
+    "deadCount": 549,
+    "date": "2020-03-09"
+  },
+  "2020-03-08": {
+    "currentConfirmedCount": 19637,
+    "confirmedCount": 22679,
+    "suspectedCount": 0,
+    "curedCount": 2606,
+    "deadCount": 436,
+    "date": "2020-03-08"
+  },
+  "2020-03-07": {
+    "currentConfirmedCount": 17640,
+    "confirmedCount": 19660,
+    "suspectedCount": 0,
+    "curedCount": 1662,
+    "deadCount": 358,
+    "date": "2020-03-07"
+  },
+  "2020-03-06": {
+    "currentConfirmedCount": 13819,
+    "confirmedCount": 15240,
+    "suspectedCount": 0,
+    "curedCount": 1152,
+    "deadCount": 269,
+    "date": "2020-03-06"
+  },
+  "2020-03-05": {
+    "currentConfirmedCount": 12396,
+    "confirmedCount": 13660,
+    "suspectedCount": 0,
+    "curedCount": 1030,
+    "deadCount": 234,
+    "date": "2020-03-05"
+  },
+  "2020-03-04": {
+    "currentConfirmedCount": 10828,
+    "confirmedCount": 11890,
+    "suspectedCount": 0,
+    "curedCount": 879,
+    "deadCount": 183,
+    "date": "2020-03-04"
+  },
+  "2020-03-03": {
+    "currentConfirmedCount": 8850,
+    "confirmedCount": 9535,
+    "suspectedCount": 0,
+    "curedCount": 545,
+    "deadCount": 140,
+    "date": "2020-03-03"
+  },
+  "2020-03-02": {
+    "currentConfirmedCount": 6852,
+    "confirmedCount": 7476,
+    "suspectedCount": 0,
+    "curedCount": 507,
+    "deadCount": 117,
+    "date": "2020-03-02"
+  },
+  "2020-03-01": {
+    "currentConfirmedCount": 5745,
+    "confirmedCount": 6264,
+    "suspectedCount": 0,
+    "curedCount": 425,
+    "deadCount": 94,
+    "date": "2020-03-01"
+  },
+  "2020-02-29": {
+    "currentConfirmedCount": 5383,
+    "confirmedCount": 5818,
+    "suspectedCount": 0,
+    "curedCount": 350,
+    "deadCount": 85,
+    "date": "2020-02-29"
+  },
+  "2020-02-28": {
+    "currentConfirmedCount": 3607,
+    "confirmedCount": 3923,
+    "suspectedCount": 0,
+    "curedCount": 316,
+    "deadCount": 62,
+    "date": "2020-02-28"
+  },
+  "2020-02-27": {
+    "currentConfirmedCount": 2870,
+    "confirmedCount": 3093,
+    "suspectedCount": 0,
+    "curedCount": 223,
+    "deadCount": 51,
+    "date": "2020-02-27"
+  },
+  "2020-02-26": {
+    "currentConfirmedCount": 2353,
+    "confirmedCount": 2579,
+    "suspectedCount": 0,
+    "curedCount": 226,
+    "deadCount": 39,
+    "date": "2020-02-26"
+  },
+  "2020-02-25": {
+    "currentConfirmedCount": 2067,
+    "confirmedCount": 2270,
+    "suspectedCount": 0,
+    "curedCount": 203,
+    "deadCount": 31,
+    "date": "2020-02-25"
+  },
+  "2020-02-24": {
+    "currentConfirmedCount": 1676,
+    "confirmedCount": 1848,
+    "suspectedCount": 0,
+    "curedCount": 172,
+    "deadCount": 20,
+    "date": "2020-02-24"
+  },
+  "2020-02-23": {
+    "currentConfirmedCount": 1330,
+    "confirmedCount": 1461,
+    "suspectedCount": 0,
+    "curedCount": 131,
+    "deadCount": 12,
+    "date": "2020-02-23"
+  },
+  "2020-02-22": {
+    "currentConfirmedCount": 1073,
+    "confirmedCount": 1223,
+    "suspectedCount": 0,
+    "curedCount": 150,
+    "deadCount": 10,
+    "date": "2020-02-22"
+  },
+  "2020-02-21": {
+    "currentConfirmedCount": 888,
+    "confirmedCount": 1018,
+    "suspectedCount": 0,
+    "curedCount": 130,
+    "deadCount": 6,
+    "date": "2020-02-21"
+  },
+  "2020-02-20": {
+    "currentConfirmedCount": 869,
+    "confirmedCount": 1010,
+    "suspectedCount": 0,
+    "curedCount": 141,
+    "deadCount": 4,
+    "date": "2020-02-20"
+  },
+  "2020-02-19": {
+    "currentConfirmedCount": 723,
+    "confirmedCount": 833,
+    "suspectedCount": 0,
+    "curedCount": 110,
+    "deadCount": 2,
+    "date": "2020-02-19"
+  },
+  "2020-02-18": {
+    "currentConfirmedCount": 633,
+    "confirmedCount": 729,
+    "suspectedCount": 0,
+    "curedCount": 96,
+    "deadCount": 2,
+    "date": "2020-02-18"
+  },
+  "2020-02-17": {
+    "currentConfirmedCount": 575,
+    "confirmedCount": 680,
+    "suspectedCount": 0,
+    "curedCount": 105,
+    "deadCount": 2,
+    "date": "2020-02-17"
+  },
+  "2020-02-16": {
+    "currentConfirmedCount": 855,
+    "confirmedCount": 956,
+    "suspectedCount": 0,
+    "curedCount": 101,
+    "deadCount": 3,
+    "date": "2020-02-16"
+  },
+  "2020-02-15": {
+    "currentConfirmedCount": 447,
+    "confirmedCount": 517,
+    "suspectedCount": 0,
+    "curedCount": 70,
+    "deadCount": 2,
+    "date": "2020-02-15"
+  },
+  "2020-02-14": {
+    "currentConfirmedCount": 438,
+    "confirmedCount": 500,
+    "suspectedCount": 0,
+    "curedCount": 62,
+    "deadCount": 2,
+    "date": "2020-02-14"
+  },
+  "2020-02-13": {
+    "currentConfirmedCount": 391,
+    "confirmedCount": 441,
+    "suspectedCount": 0,
+    "curedCount": 50,
+    "deadCount": 1,
+    "date": "2020-02-13"
+  },
+  "2020-02-12": {
+    "currentConfirmedCount": 358,
+    "confirmedCount": 394,
+    "suspectedCount": 0,
+    "curedCount": 36,
+    "deadCount": 1,
+    "date": "2020-02-12"
+  },
+  "2020-02-11": {
+    "currentConfirmedCount": 354,
+    "confirmedCount": 378,
+    "suspectedCount": 0,
+    "curedCount": 24,
+    "deadCount": 1,
+    "date": "2020-02-11"
+  },
+  "2020-02-10": {
+    "currentConfirmedCount": 290,
+    "confirmedCount": 311,
+    "suspectedCount": 0,
+    "curedCount": 21,
+    "deadCount": 1,
+    "date": "2020-02-10"
+  },
+  "2020-02-09": {
+    "currentConfirmedCount": 67,
+    "confirmedCount": 72,
+    "suspectedCount": 0,
+    "curedCount": 5,
+    "deadCount": 0,
+    "date": "2020-02-09"
+  },
+  "2020-02-08": {
+    "currentConfirmedCount": 222,
+    "confirmedCount": 238,
+    "suspectedCount": 0,
+    "curedCount": 16,
+    "deadCount": 1,
+    "date": "2020-02-08"
+  },
+  "2020-02-07": {
+    "currentConfirmedCount": 163,
+    "confirmedCount": 167,
+    "suspectedCount": 0,
+    "curedCount": 4,
+    "deadCount": 0,
+    "date": "2020-02-07"
+  },
+  "2020-02-06": {
+    "currentConfirmedCount": 119,
+    "confirmedCount": 122,
+    "suspectedCount": 0,
+    "curedCount": 3,
+    "deadCount": 0,
+    "date": "2020-02-06"
+  },
+  "2020-02-05": {
+    "currentConfirmedCount": 70,
+    "confirmedCount": 71,
+    "suspectedCount": 0,
+    "curedCount": 1,
+    "deadCount": 0,
+    "date": "2020-02-05"
+  },
+  "2020-02-04": {
+    "currentConfirmedCount": 117,
+    "confirmedCount": 125,
+    "suspectedCount": 0,
+    "curedCount": 8,
+    "deadCount": 0,
+    "date": "2020-02-04"
+  },
+  "2020-02-03": {
+    "currentConfirmedCount": 9,
+    "confirmedCount": 9,
+    "suspectedCount": 0,
+    "curedCount": 0,
+    "deadCount": 0,
+    "date": "2020-02-03"
+  },
+  "2020-02-02": {
+    "currentConfirmedCount": 68,
+    "confirmedCount": 70,
+    "suspectedCount": 0,
+    "curedCount": 2,
+    "deadCount": 0,
+    "date": "2020-02-02"
+  },
+  "2020-02-01": {
+    "currentConfirmedCount": 106,
+    "confirmedCount": 114,
+    "suspectedCount": 0,
+    "curedCount": 8,
+    "deadCount": 0,
+    "date": "2020-02-01"
+  },
+  "2020-01-31": {
+    "currentConfirmedCount": 75,
+    "confirmedCount": 83,
+    "suspectedCount": 0,
+    "curedCount": 8,
+    "deadCount": 0,
+    "date": "2020-01-31"
+  },
+  "2020-01-30": {
+    "currentConfirmedCount": 34,
+    "confirmedCount": 37,
+    "suspectedCount": 0,
+    "curedCount": 3,
+    "deadCount": 0,
+    "date": "2020-01-30"
+  },
+  "2020-01-29": {
+    "currentConfirmedCount": 32,
+    "confirmedCount": 32,
+    "suspectedCount": 0,
+    "curedCount": 0,
+    "deadCount": 0,
+    "date": "2020-01-29"
+  },
+  "2020-01-28": {
+    "currentConfirmedCount": 15,
+    "confirmedCount": 21,
+    "suspectedCount": 0,
+    "curedCount": 6,
+    "deadCount": 0,
+    "date": "2020-01-28"
+  },
+  "2020-01-27": {
+    "currentConfirmedCount": 37,
+    "confirmedCount": 40,
+    "suspectedCount": 0,
+    "curedCount": 3,
+    "deadCount": 0,
+    "date": "2020-01-27"
+  },
+  "2020-01-26": {
+    "date": "2020-01-26"
+  },
+  "2020-01-25": {
+    "date": "2020-01-25"
+  },
+  "2020-01-24": {
+    "date": "2020-01-24"
+  }
+}

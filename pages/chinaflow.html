@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>新型冠状病毒肺炎疫情传播流场地图</title>
+    <link href="../stylesheet/chinaflow.css" rel="stylesheet" type="text/css">
+    <!-- <link type="text/css" rel="stylesheet" href="../stylesheet/data.css"> -->
+    <link href="../stylesheet/nv.d3.min.css" rel="stylesheet" type="text/css">
+    <link href="../stylesheet/vis.css" rel="stylesheet" type="text/css">
+    <link href="../stylesheet/leaflet.css" rel="stylesheet" type="text/css">
+    <link href="../stylesheet/L.Control.Layers.Tree.css" rel="stylesheet" type="text/css">
+    <link href="../stylesheet/easy-button.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.css"
+          rel="stylesheet" type="text/css">
+    <!--    <link type="text/css" rel="stylesheet" href="../stylesheet/font-awesome.min.css">-->
+    <script src="../lib/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script src="../lib/d3.v3.min.js" type="text/javascript"></script>
+    <script src="../lib/nv.d3.min.js" type="text/javascript"></script>
+    <script src="../lib/leaflet.js" type="text/javascript"></script>
+    <script src="../lib/leaflet-heat.js" type="text/javascript"></script>
+    <script src="../lib/leaflet-providers.js" type="text/javascript"></script>
+    <script src="../lib/leaflet.ChineseTmsProviders.js" type="text/javascript"></script>
+    <script src="../lib/L.Control.Layers.Tree.js" type="text/javascript"></script>
+    <script src="../lib/L.D3SvgOverlay.min.js" type="text/javascript"></script>
+    <script src="../lib/virtual-grid.js" type="text/javascript"></script>
+    <script src="../lib/wise-leaflet-pip.js" type="text/javascript"></script>
+    <script src="../lib/easy-button.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.js"
+            type="text/javascript"></script>
+    <script src="../javascripts/function.js" type="text/javascript"></script>
+    <!--    <script type="text/javascript" src="../data/allProvinceFlows.js"></script>-->
+</head>
+
+<body>
+<div class="outside_block">
+    <div class="top_block">
+        <img id="logo" src="../assets/logo_blue.png">
+        <div id="title">疫情传播流场可视化</div>
+        <div id="back"><a href="../index.html">返回首页</a></div>
+    </div>
+    <div id="map"></div>
+    <div class="bottom_block">
+        <div>从菜单选择日期，观察流场变化</div>
+        <div>CopyRight©Xingyu Hangxue Junqi Studio</div>
+        <div>All rights reserved. 2020.03</div>
+    </div>
+</div>
+
+<script>
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+
+    d3.select(".top_block").style("height", 0.1 * height + "px");
+
+    d3.select("#map")
+        .style("width", width + "px")
+        .style("height", 0.76 * height + "px");
+
+    d3.select(".bottom_block").style("height", 0.09 * height + "px");
+    d3.select(".bottom_block").style("margin-top", 0.01 * height + "px");
+
+
+    var google = L.tileLayer.chinaProvider("Google.Normal.Map", {
+        attribution: 'Map data &copy; <a href="https://www.google.com/maps">2019 Google Maps</a> ' +
+            'contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+    });
+
+
+    d3.json("../data/chinaEpidemicFlows.json", function (error, data) {
+        if (error) throw error;
+
+        var chinaMap = L.map("map", {
+            center: [38, 105],
+            zoom: 4,
+            layers: google,
+            fullscreenControl: true
+        });
+
+        var baselayertree = {
+            label: "Map provider",
+            children: [{
+                label: "Google",
+                layer: google
+            },]
+        };
+
+        var sublayertree = [{
+            label: "FLows",
+            children: []
+        },];
+
+        var dataKeys = d3.keys(data);
+        data = d3.values(data);
+        // data = d3.values(data).map(function (d) {
+        //     d = d.map(function (l) {
+        //         return {
+        //             "s": L.latLng(+l.slat, +l.slon),
+        //             "e": L.latLng(+l.elat, +l.elon),
+        //             "speed": +l.speed
+        //         }
+        //     });
+        //     return d;
+        // });
+        // console.log(data);
+
+
+        data.forEach(function (eachFlow, i) {
+            var tmpFlowLayer = L.layerGroup();
+            // console.log(eachFlow);
+
+            L.geoJSON(eachFlow, {
+                pointToLayer: function (feature, latlng) {
+                    // console.log(feature);
+                    var arrow = feature['properties']['html'];
+                    var icon_anchor = [feature['properties']['anchor_x'],
+                        feature['properties']['anchor_y']
+                    ];
+                    var div_icon = L.divIcon({
+                        "className": "quiver",
+                        "html": arrow,
+                        "iconAnchor": icon_anchor,
+                    });
+                    return L.marker(latlng, {
+                        icon: div_icon
+                    });
+                }
+            }).addTo(tmpFlowLayer);
+
+            // L.d3SvgOverlay(function (svg, projection) {
+            //     const arrowHead = svg.append("defs")
+            //         .append("marker")
+            //         .attr("id", "arrow")
+            //         .attr("viewBox", [0, -5, 10, 10])
+            //         .attr("refX", 0)
+            //         .attr("refY", 0)
+            //         .attr("markerWidth", 4)
+            //         .attr("markerHeight", 4)
+            //         .attr("orient", "auto")
+            //         .append("path")
+            //         .attr("d", "M0,-2L4,0L0,2")
+            //         .attr("stroke", "black")
+            //         .attr("stroke-width", 1);
+            //
+            //     svg.selectAll(".chinaFlow")
+            //         .data(eachFlow).enter()
+            //         .append("line")
+            //         .style("stroke", "black")
+            //         .style("stroke-width", 1)
+            //         .attr("marker-end", "url(#arrow)")
+            //         .attr("x1", (d) => { return projection.latLngToLayerPoint(d.s).x; })
+            //         .attr("y1", (d) => { return projection.latLngToLayerPoint(d.s).y; })
+            //         .attr("x2", (d) => { return projection.latLngToLayerPoint(d.e).x; })
+            //         .attr("y2", (d) => { return projection.latLngToLayerPoint(d.e).y; });
+            //         // .call(lineAnimate);
+            //
+            //     // function lineAnimate(lines) {
+            //     //     lines
+            //     //         .attr("x2", (d) => { return projection.latLngToLayerPoint(d.s).x; })
+            //     //         .attr("y2", (d) => { return projection.latLngToLayerPoint(d.s).y; })
+            //     //         .style("opacity", 0)
+            //     //         // .style("stroke", (d) => { return rg(speedScale(d.speed)); })
+            //     //         .transition()
+            //     //         .ease("linear")
+            //     //         .duration((d) => { return 6000 / d.speed; })
+            //     //         .delay((d, i) => { return Math.random() * 1000; })
+            //     //         .attr("x2", (d) => { return projection.latLngToLayerPoint(d.e).x; })
+            //     //         .attr("y2", (d) => { return projection.latLngToLayerPoint(d.e).y; })
+            //     //         .style("opacity", 1)
+            //     //         .transition()
+            //     //         .duration(1000)
+            //     //         .style("opacity", 0.1)
+            //     //         .each("end", function () {
+            //     //             d3.select(this).call(lineAnimate);
+            //     //         });
+            //     // }
+            // }).addTo(tmpFlowLayer);
+
+            sublayertree[0]['children'].push({
+                label: dataKeys[i],
+                layer: tmpFlowLayer
+            })
+        });
+
+        var control = L.control.layers.tree(baselayertree, sublayertree, {
+            position: "topright",
+            collapseAll: "Collapse all",
+            expandAll: "Expand all",
+        }).addTo(chinaMap);
+
+        L.easyButton('fa fa-arrows', function (bttn, map) {
+            flowChange(data, 500, chinaMap);
+        }).addTo(chinaMap);
+
+    });
+
+    async function flowChange(data, pfs, map) {
+        for (let i = 0; i < data.length; i++) {
+            var eachFlow = data[i];
+            var tmpFlows = L.geoJSON(eachFlow, {
+                pointToLayer: function (feature, latlng) {
+                    var arrow = feature['properties']['html'];
+                    var icon_anchor = [feature['properties']['anchor_x'],
+                        feature['properties']['anchor_y']
+                    ];
+                    var div_icon = L.divIcon({
+                        "className": "quiver",
+                        "html": arrow,
+                        "iconAnchor": icon_anchor,
+                    });
+                    return L.marker(latlng, {
+                        icon: div_icon
+                    });
+                }
+            });
+            tmpFlows.addTo(map);
+            await sleep(pfs);
+            map.removeLayer(tmpFlows);
+        }
+    }
+</script>
+</body>
+
+</html>
